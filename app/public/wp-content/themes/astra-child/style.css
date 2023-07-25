@@ -15,8 +15,9 @@ Template: astra
   display: flex;
 justify-content: center;}
 
- #wpforms-submit-1455{ 
-   background-color: #E0B9B4;}
+ #wpforms-submit-1455 { 
+   background-color: #E0B9B4;
+  text-transform: capitalize;}
 
 
 /* menu */
@@ -26,6 +27,8 @@ justify-content: center;}
  #menu-item-1915 a { 
    color:#fff ;
 }
+.site-primary-header-wrap{ padding-right: 0px;
+margin-right: 0px;}
 
 /* page commander */
 .wrapper {
@@ -98,7 +101,9 @@ color: #FFFFFF;
 font-family: Syne;}
  
 .bouton-com { 
-margin:auto !important;
+/* margin:auto !important; */
+display: flex;
+justify-content: center;
 font-family: Syne !important;
 font-size: 10px !important;
 color: #FFFFFF !important;
@@ -106,6 +111,7 @@ background-color: #E0B9B4 !important;
 border-radius: 7px !important;
 width: 198px;
 height: 55px;
+text-transform: capitalize !important;
 }
 .align-bouton{
 display: flex;
@@ -173,11 +179,6 @@ font-size: 20px;}
   }
 
   
-  .curve {
-    border-bottom-left-radius: 50% 14% !important;
-    border-bottom-right-radius: 50% 14% !important;
-    border-bottom: 8px solid #d3cac2 !important;
-  }
 
 /* Styles pour Media Queries Telephone */
 @media only screen and (max-width : 480px) {
@@ -207,10 +208,16 @@ font-size: 20px;}
             font-size: 30px !important;
         }
     }
+     /* page d'accueil */
+
+     .curve {
+      border-bottom-left-radius: 50% 14% !important;
+      border-bottom-right-radius: 50% 14% !important;
+      border-bottom: 8px solid #d3cac2 !important;
+    }
 
     .relative {
         position: relative;
-        /* border: 1px solid black; */
         margin: auto;
         width: 188px;
         height: 300px;

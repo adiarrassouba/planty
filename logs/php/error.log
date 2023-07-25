@@ -542,3 +542,125 @@ Stack trace:
 [13-Jun-2023 20:46:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
 [13-Jun-2023 20:46:09 UTC] SITE: Request Failed! Still Calling..
 [13-Jun-2023 20:46:09 UTC] Sync process for Gutenberg Blocks is done.
+[20-Jun-2023 20:09:18 UTC] Sync process for Gutenberg Blocks has started.
+[20-Jun-2023 20:09:18 UTC] CATEGORY:Importing categories..
+[20-Jun-2023 20:09:19 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[20-Jun-2023 20:09:19 UTC] CATEGORY:Completed category import.
+[20-Jun-2023 20:09:19 UTC] BLOCK: Getting Total Blocks
+[20-Jun-2023 20:09:19 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[20-Jun-2023 20:09:19 UTC] BLOCK: Requests count 4
+[20-Jun-2023 20:09:19 UTC] BLOCK: Importing request 1 ..
+[20-Jun-2023 20:09:19 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[20-Jun-2023 20:09:20 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[20-Jun-2023 20:09:20 UTC] BLOCK: Completed request 1
+[20-Jun-2023 20:09:20 UTC] BLOCK: Importing request 2 ..
+[20-Jun-2023 20:09:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[20-Jun-2023 20:09:22 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[20-Jun-2023 20:09:22 UTC] BLOCK: Completed request 2
+[20-Jun-2023 20:09:22 UTC] BLOCK: Importing request 3 ..
+[20-Jun-2023 20:09:22 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[20-Jun-2023 20:09:23 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[20-Jun-2023 20:09:23 UTC] BLOCK: Completed request 3
+[20-Jun-2023 20:09:23 UTC] BLOCK: Importing request 4 ..
+[20-Jun-2023 20:09:23 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[20-Jun-2023 20:09:25 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[20-Jun-2023 20:09:25 UTC] BLOCK: Completed request 4
+[20-Jun-2023 20:09:25 UTC] SITE: Getting Total Sites
+[20-Jun-2023 20:09:25 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[20-Jun-2023 20:09:27 UTC] SITE: Request count 2
+[20-Jun-2023 20:09:27 UTC] SITE: Importing request 1 ..
+[20-Jun-2023 20:09:27 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[20-Jun-2023 20:09:29 UTC] SITE: Storing in option ast-block-templates-sites-1
+[20-Jun-2023 20:09:29 UTC] SITE: Completed request 1
+[20-Jun-2023 20:09:29 UTC] SITE: Importing request 2 ..
+[20-Jun-2023 20:09:29 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[20-Jun-2023 20:09:30 UTC] SITE: Storing in option ast-block-templates-sites-2
+[20-Jun-2023 20:09:30 UTC] SITE: Completed request 2
+[20-Jun-2023 20:09:30 UTC] Sync process for Gutenberg Blocks is done.
+[21-Jun-2023 17:23:40 UTC] PHP Warning:  Undefined array key "created_at" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 270
+[21-Jun-2023 17:23:40 UTC] PHP Warning:  Undefined array key "seq_num" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 271
+[21-Jun-2023 17:23:40 UTC] PHP Warning:  Undefined array key "seq_num" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 272
+[21-Jun-2023 17:23:40 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 359
+[21-Jun-2023 17:23:40 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 360
+[21-Jun-2023 17:23:40 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 359
+[21-Jun-2023 17:23:40 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 360
+[21-Jun-2023 17:23:40 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 359
+[21-Jun-2023 17:23:40 UTC] PHP Warning:  Undefined array key "updated_at" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 360
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "default" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "default" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "default" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "default" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "id" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "required" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "required" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "default" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "default" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "label_pos" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "label_pos" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 456
+[21-Jun-2023 17:23:41 UTC] PHP Warning:  Undefined array key "personally_identifiable" in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\ninja-forms\includes\Admin\Processes\ImportForm.php on line 457
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 15:17:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 108
+[27-Jun-2023 17:22:45 UTC] PHP Warning:  Attempt to read property "name" on bool in C:\Users\astou\Local Sites\planty\app\public\wp-admin\nav-menus.php on line 1137
+[10-Jul-2023 14:10:52 UTC] PHP Warning:  Attempt to read property "name" on bool in C:\Users\astou\Local Sites\planty\app\public\wp-admin\nav-menus.php on line 1137
+[10-Jul-2023 14:20:54 UTC] PHP Warning:  Attempt to read property "name" on bool in C:\Users\astou\Local Sites\planty\app\public\wp-admin\nav-menus.php on line 1137
+[10-Jul-2023 14:21:31 UTC] PHP Warning:  Attempt to read property "name" on bool in C:\Users\astou\Local Sites\planty\app\public\wp-admin\nav-menus.php on line 1137
+[10-Jul-2023 14:43:38 UTC] PHP Warning:  Attempt to read property "name" on bool in C:\Users\astou\Local Sites\planty\app\public\wp-admin\nav-menus.php on line 1137
+[10-Jul-2023 22:11:38 UTC] PHP Parse error:  syntax error, unexpected token "=" in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 32
+[10-Jul-2023 22:11:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[10-Jul-2023 22:11:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\astou\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[10-Jul-2023 22:11:49 UTC] PHP Parse error:  syntax error, unexpected token "=" in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 32
+[10-Jul-2023 22:11:49 UTC] PHP Parse error:  syntax error, unexpected token "=" in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 32
+[10-Jul-2023 22:11:50 UTC] PHP Parse error:  syntax error, unexpected token "=" in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 32
+[10-Jul-2023 22:12:29 UTC] PHP Warning:  Undefined variable $newItems in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 37
+[24-Jul-2023 16:13:13 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[24-Jul-2023 16:13:13 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[24-Jul-2023 16:13:14 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[24-Jul-2023 16:13:15 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:49:52 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:49:52 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:49:52 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:50:12 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:50:31 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:50:31 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:50:32 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:51:02 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:51:04 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:51:05 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 09:51:07 UTC] PHP Warning:  Undefined variable $nouveauxOnglets in C:\Users\astou\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 35
+[25-Jul-2023 13:43:37 UTC] PHP Warning:  Attempt to read property "name" on bool in C:\Users\astou\Local Sites\planty\app\public\wp-admin\nav-menus.php on line 1137
+[25-Jul-2023 13:44:10 UTC] PHP Warning:  Attempt to read property "name" on bool in C:\Users\astou\Local Sites\planty\app\public\wp-admin\nav-menus.php on line 1137

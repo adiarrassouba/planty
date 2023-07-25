@@ -9,3 +9,232 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: astra-child
 Template: astra
 */
+
+/* formulaire nous rencontrer */
+ .wpforms-submit-container{ 
+  display: flex;
+justify-content: center;}
+
+ #wpforms-submit-1455{ 
+   background-color: #E0B9B4;}
+
+
+/* menu */
+ #menu-item-1915 { 
+   background-color:#DC9F96 ;
+}
+ #menu-item-1915 a { 
+   color:#fff ;
+}
+
+/* page commander */
+.wrapper {
+    position: relative;
+    display:flex;
+    width: 100%;
+  }
+.div-spinner {
+    z-index: 2;
+    margin-left: -5px;
+}
+#inpfruit {
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    font-size: 14pt;
+    z-index: 1;
+    border-radius: 5px;
+    padding-left: 15px;
+  }
+  
+.spinner-button {
+    /* position: absolute; */
+    cursor: default;
+    z-index: 2;
+    background-color: #ccc;
+    width: 45px;
+    text-align: center;
+    margin: 0px;
+    pointer-events: none;
+    height: 25px;
+    line-height: 20px;
+    background: #DC9F96;
+    color:white;
+  }
+  
+#inc-button {
+    border-bottom: 1px solid white;
+    border-radius: 0 5px 0 0;
+  }
+  
+#dec-button {
+    border-top: 1px solid white;
+    border-radius: 0 0 5px 0;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.bouton-ok {
+height: 50px;
+ width: 150px;
+ background-color: #E0B9B4 !important;
+color: #FFFFFF !important;
+margin-left: 9px;
+border-radius: 5px !important;
+}
+.flexy { display: flex;
+justify-content: space-between;
+margin: 10px auto 0;
+}
+
+.flex-command {
+   display: flex;
+justify-content: space-evenly;
+color: #FFFFFF;
+font-family: Syne;}
+ 
+.bouton-com { 
+margin:auto !important;
+font-family: Syne !important;
+font-size: 10px !important;
+color: #FFFFFF !important;
+background-color: #E0B9B4 !important;
+border-radius: 7px !important;
+width: 198px;
+height: 55px;
+}
+.align-bouton{
+display: flex;
+justify-content: center;
+margin-top:35px;}
+
+.titre { 
+  font-family: syne !important;
+color: #FFFFFF !important;
+font-weight: 700 !important;
+font-size: 30px !important;}
+
+.lign-center { 
+  border: 1px solid #FFFFFF;}
+
+/* formulaire nous rencontrer */
+.formContact {
+    margin: auto;
+    width: 40%;
+    
+}
+
+.formContact input {
+    height: 71px;
+}
+.formContact { 
+  color: #000000;
+font-family: syne;
+font-size: 20px;}
+.formContact textarea { height: 237px !important;}
+
+/* les gouts */
+.container {
+    position: relative;
+    text-align: center;
+    color:#FFFFFF ;
+    font-family: syne;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .container1 {
+    position: relative;
+    text-align: center;
+    color:#FFFFFF ;
+    font-family: syne;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .container2 {
+    position: relative;
+    text-align: center;
+    color:#FFFFFF ;
+    font-family: syne;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;}
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+  .curve {
+    border-bottom-left-radius: 50% 14% !important;
+    border-bottom-right-radius: 50% 14% !important;
+    border-bottom: 8px solid #d3cac2 !important;
+  }
+
+/* Styles pour Media Queries Telephone */
+@media only screen and (max-width : 480px) {
+    .formContact {
+        width: 100% !important;
+    }
+    }
+
+    /* Styles pour Media Queries Tablette */
+    @media only screen and (max-width : 767px) {
+        .flexy {
+            max-width: 393px !important;
+        }
+        .flex-command{ display: flex;
+        flex-direction: column;}
+        .lign-center {border: none;}
+        }
+
+        /* Image box wrapper */
+	.elementor-widget-image-box .elementor-image-box-wrapper{
+		display:flex;
+		text-align:left;
+	}
+    
+    @media only screen and (max-width : 900px) and (min-width : 767px) {
+        .container2, .container1 {
+            font-size: 30px !important;
+        }
+    }
+
+    .relative {
+        position: relative;
+        /* border: 1px solid black; */
+        margin: auto;
+        width: 188px;
+        height: 300px;
+    }
+
+    .absolute {
+        position: absolute;
+    }
+
+    .center {
+        z-index: 2;
+    }
+
+    .left, .right {
+        z-index: 1;
+    }
+
+    .left {
+        transform: translate(-90px, 50px);
+    }
+
+    .right {
+        transform: translate(90px, 50px);
+    }
+
+    
+    

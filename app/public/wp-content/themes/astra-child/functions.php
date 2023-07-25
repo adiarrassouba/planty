@@ -26,11 +26,10 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 
 //hook menu ADMIN
 add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+
 function add_extra_item_to_nav_menu( $items, $args ) {
     if (is_user_logged_in() && $args->menu->name == 'Primary') {
         $items .= '<li id="menu-item-1572" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1572"><a href="http://planty.local/wp-admin/" class="menu-link">Admin</a></li>';
     }
-	// $items .= print_r($args); // ce que contient wp nav menu 
-	// $items .= $args->menu->name; //name est le nom du menu
     return $items;
 }
